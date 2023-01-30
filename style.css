@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+}
+
+input {
+  padding: 20px;
+  width: 300px;
+  font-size: larger;
+}
+
+button {
+  padding: 20px;
+  background-color: rgb(7, 7, 150);
+  color: aliceblue;
+  font-size: larger;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.random-aside img {
+  display: grid;
+  width: 100%;
+  height: 700px;
+}
+
+.aiman-copy {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
